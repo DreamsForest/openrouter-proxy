@@ -3,7 +3,7 @@ import requests
 
 app = FastAPI()
 
-# ⚠️ ВСТАВЬ сюда свой API-ключ OpenRouter
+
 OPENROUTER_API_KEY = "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"
 
 @app.post("/proxy")
