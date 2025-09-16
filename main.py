@@ -15,7 +15,7 @@ async def proxy(request: Request):
         headers = {
             "Authorization": f"Bearer {OPENROUTER_API_KEY}",
             "Content-Type": "application/json",
-            "HTTP-Referer": "https://example.com",   # ← тут можно твой сайт
+            "HTTP-Referer": "https://openrouter-proxy-nfb7.onrender.com",   # ← тут можно твой сайт
             "X-Title": "Math Tutor App"              # ← любое название
         }
 
